@@ -1,0 +1,25 @@
+    1  vi cluster-admin.yaml
+    2  k create cluster-admin.yaml
+    3  k create -f cluster-admin.yaml
+    4  git init
+    5  git add cluster-admin.yaml
+    6  git commit
+    7  git config --global user.email "santoshchaurasiya17@gmail.com"
+    8  git config --global user.name "Santosh Kumar"
+    9  git commit -m "ClusterRole and Binding"
+   10  git remote add origin https://github.com/santoshchaurasiyacs/ClusterRole.git
+   11  git push
+   12  git push --set-upstream origin master
+   13  vi cluster-admin.yaml 
+   14  cat cluster-admin.yaml 
+   15  vi storage-admin.yaml
+   16  vi storage-admin.yaml
+   17  vi cluster-admin.yaml 
+   18  vi storage-admin.yaml
+   19  k create -f storage-admin.yaml
+   20  git add storage-admin.yaml
+   21  git commit -m "store-admin"
+   22  git push -u origin master
+   23  kubectl auth can-i list storageclasses --as michelle.
+   24  kubectl auth can-i list storageclasses --as michelle
+   25  history >command.txt
