@@ -2,7 +2,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
   # "namespace" omitted since ClusterRoles are not namespaced
-  name: cluster-admin1
+  name: cluster-admin
 rules:
 - apiGroups: [""]
   #
